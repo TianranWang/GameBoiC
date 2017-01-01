@@ -7,6 +7,11 @@
 //
 
 #include <iostream>
+#include <functional>
+
+#include "cpu.hpp"
+#include "memory.hpp"
+
 
 int main(int argc, const char * argv[]) {
     // insert code here...

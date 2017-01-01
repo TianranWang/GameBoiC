@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		C602DAE31E19841500E368FC /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C602DAE21E19841500E368FC /* main.cpp */; };
+		C602DAEB1E19875800E368FC /* cpu.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C602DAE91E19875800E368FC /* cpu.cpp */; };
+		C602DAEE1E19876A00E368FC /* memory.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C602DAEC1E19876A00E368FC /* memory.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +27,10 @@
 /* Begin PBXFileReference section */
 		C602DADF1E19841500E368FC /* GameBoiC */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = GameBoiC; sourceTree = BUILT_PRODUCTS_DIR; };
 		C602DAE21E19841500E368FC /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		C602DAE91E19875800E368FC /* cpu.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = cpu.cpp; sourceTree = "<group>"; };
+		C602DAEA1E19875800E368FC /* cpu.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = cpu.hpp; sourceTree = "<group>"; };
+		C602DAEC1E19876A00E368FC /* memory.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = memory.cpp; sourceTree = "<group>"; };
+		C602DAED1E19876A00E368FC /* memory.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = memory.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +64,10 @@
 			isa = PBXGroup;
 			children = (
 				C602DAE21E19841500E368FC /* main.cpp */,
+				C602DAE91E19875800E368FC /* cpu.cpp */,
+				C602DAEA1E19875800E368FC /* cpu.hpp */,
+				C602DAEC1E19876A00E368FC /* memory.cpp */,
+				C602DAED1E19876A00E368FC /* memory.hpp */,
 			);
 			path = GameBoiC;
 			sourceTree = "<group>";
@@ -119,7 +129,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C602DAEB1E19875800E368FC /* cpu.cpp in Sources */,
 				C602DAE31E19841500E368FC /* main.cpp in Sources */,
+				C602DAEE1E19876A00E368FC /* memory.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -246,6 +258,7 @@
 				C602DAE81E19841500E368FC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
